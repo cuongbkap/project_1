@@ -1,0 +1,36 @@
+<div class="panel">
+    <div class="panel-heading">
+        <h3 class="panel-title">Role</h3>
+        <div class="right">
+            <button type="button" class="btn-toggle-collapse"><i class="lnr lnr-chevron-up"></i></button>
+            <button type="button" class="btn-remove"><i class="lnr lnr-cross"></i></button>
+        </div>
+    </div>
+    <div class="panel-body no-padding" style="display: block;">
+        <table class="table table-striped align-center">
+            <thead>
+                <tr>
+                    <th class="text-center">Role ID</th>
+                    <th class="text-center">Role Name</th>
+                    <th class="text-center">Edit</th>
+                    <th class="text-center">Delete</th>
+                </tr>
+            </thead>
+            <tbody id='roleTable'>
+
+            </tbody>
+        </table>
+    </div>
+    <!-- <div class="panel-footer">
+        <div class="row">
+            <div class="col-md-6"><span class="panel-note"><i class="fa fa-clock-o"></i> Last 24 hours</span></div>
+            <div class="col-md-6 text-right"><a href="#" class="btn btn-primary">View All Purchases</a></div>
+        </div>
+    </div> -->
+    
+    <!-- <script src="assets/js/role.js"></script> -->
+</div>
+<script>
+    var url = 'assets/js/role.js';
+    $.getScript(url);
+</script>
